@@ -10,7 +10,7 @@ IConfigurationRoot configuration = new ConfigurationBuilder()
     .Build();
 
 configuration["ProjectEndpoint"] = "https://maheshagent-1-resource.services.ai.azure.com/api/projects/maheshagent_1";
-configuration["ModelDeploymentName" = "pt - 4.1 - mini";
+configuration["ModelDeploymentName"] = "gpt-4.1-mini";
 var projectEndpoint = configuration["ProjectEndpoint"];
 var modelDeploymentName = configuration["ModelDeploymentName"];
 
