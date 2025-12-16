@@ -1,12 +1,12 @@
 import os
 from openai import AzureOpenAI
 
-endpoint = "https://maheshagent-1-resource.cognitiveservices.azure.com/"
+endpoint = "https://msehallijagadish-0387-resource.services.ai.azure.com/api/projects/msehallijagadish-0387"
 model_name = "gpt-4.1-mini"
 deployment = "gpt-4.1-mini"
 
 #Azure AI Foundary/maheshagent_1/Models + endpoints/gpt-4.1-mini/key
-subscription_key = "get key from the above path"
+subscription_key = ""
 api_version = "2024-12-01-preview"
 
 client = AzureOpenAI(
@@ -35,3 +35,5 @@ response = client.chat.completions.create(
 )
 
 print(response.choices[0].message.content)
+
+
