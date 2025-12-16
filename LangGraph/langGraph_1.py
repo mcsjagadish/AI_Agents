@@ -6,7 +6,7 @@ from langchain_core.messages import HumanMessage, ToolMessage, AIMessage
 from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, END
 
-os.environ["OPENAI_API_KEY"] = "1BcUOi5R77pw5f2bOFIdVsKnTJDtJqxQacnnToGyKVAnXsMmOohAJQQJ99BJACHYHv6XJ3w3AAAAACOGrqRc"
+os.environ["OPENAI_API_KEY"] = ""
 
 print("OPENAI_API_KEY:", os.getenv("OPENAI_API_KEY"))
 
